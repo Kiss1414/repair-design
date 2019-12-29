@@ -19,7 +19,7 @@ const sass = require("gulp-sass");
  function serveSass() {
     return src("./sass/*.sass")
         .pipe(sass())
-        .pipe(gulp.dest("./css"))
+        .pipe(dest("./css"))
         .pipe(browserSync.stream());
 };
 
