@@ -321,14 +321,19 @@ template {
   border-radius: 2px;
   text-transform: uppercase; }
   .button--primary {
-    background-color: #e38873;
+    background-color: #E3B873;
     color: #ffffff; }
 
 .container {
   max-width: 1256px;
-  margin: auto; }
+  margin: 0 auto; }
 
 .header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 99;
   background-color: #131313;
   padding: 24px 0; }
 
@@ -338,7 +343,7 @@ template {
   align-items: center; }
 
 .logo {
-  color: #e38873;
+  color: #E3B873;
   text-transform: uppercase; }
 
 .nav__item {
@@ -348,10 +353,40 @@ template {
   margin-right: 40px; }
 
 .phone {
-  color: #e38873; }
+  color: #E3B873; }
 
 .contacts__phone {
   margin-right: 45px; }
+
+.hero {
+  position: relative;
+  padding-top: 100px;
+  background: #131313 url("../img/hero-bg.jpg") no-repeat center/cover;
+  height: 100vh;
+  color: #ffffff; }
+  .hero__instagram {
+    position: absolute;
+    left: 0;
+    top: 0;
+    max-width: 80px;
+    height: 100%; }
+
+.instagram {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #131313; }
+  .instagram__link {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #E3B873;
+    transform: rotate(90deg); }
+
+.title {
+  margin: 0; }
+
+*, *:before, *:after {
+  box-sizing: border-box; }
 
 body {
   font-family: 'Futura Book', sans-serif;
