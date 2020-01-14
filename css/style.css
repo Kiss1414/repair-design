@@ -400,7 +400,9 @@ template {
     transform: rotate(90deg); }
 
 .title {
-  margin: 0; }
+  margin: 0;
+  font-family: 'Yeseva One', cursive;
+  font-size: 40px; }
 
 *, *:before, *:after {
   box-sizing: border-box; }
