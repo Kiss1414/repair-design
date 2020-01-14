@@ -403,6 +403,8 @@ template {
   margin: 0;
   font-family: 'Yeseva One', cursive;
   font-size: 40px; }
+  .title--primary {
+    color: #E3B873; }
 
 *, *:before, *:after {
   box-sizing: border-box; }
