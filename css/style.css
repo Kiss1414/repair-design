@@ -326,8 +326,7 @@ template {
 
 .container {
   max-width: 1256px;
-  margin: 0 auto;
-  width: 85%; }
+  margin: auto; }
 
 .header {
   position: fixed;
@@ -361,6 +360,10 @@ template {
 
 .hero {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding-top: 100px;
   background: #131313 url("../img/hero-bg.jpg") no-repeat center/cover;
   height: 100vh;
