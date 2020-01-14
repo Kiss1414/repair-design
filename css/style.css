@@ -364,7 +364,7 @@ template {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 100px;
+  padding-top: 100pxc;
   background: #131313 url("../img/hero-bg.jpg") no-repeat center/cover;
   height: 100vh;
   color: #ffffff; }
@@ -374,6 +374,11 @@ template {
     top: 0;
     max-width: 80px;
     height: 100%; }
+  .hero__content {
+    max-width: 630px; }
+  .hero__text {
+    font-size: 22px;
+    max-width: 500px; }
   .hero__scroll-down {
     position: absolute;
     display: flex;
