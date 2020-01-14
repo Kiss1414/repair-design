@@ -326,7 +326,8 @@ template {
 
 .container {
   max-width: 1256px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  width: 85%; }
 
 .header {
   position: fixed;
@@ -370,6 +371,19 @@ template {
     top: 0;
     max-width: 80px;
     height: 100%; }
+  .hero__scroll-down {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    bottom: 0;
+    min-width: 247px;
+    min-height: 97px;
+    background: #131313;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff; }
 
 .instagram {
   display: flex;
