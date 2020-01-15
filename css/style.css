@@ -317,7 +317,7 @@ template {
 
 .button {
   padding: 13px 20px;
-  bottom: none;
+  border: none;
   border-radius: 2px;
   text-transform: uppercase; }
   .button--primary {
