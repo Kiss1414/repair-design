@@ -323,6 +323,10 @@ template {
   .button--primary {
     background-color: #E3B873;
     color: #ffffff; }
+  .button--outline {
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    color: #ffffff; }
 
 .container {
   max-width: 1256px;
@@ -379,6 +383,8 @@ template {
   .hero__text {
     font-size: 22px;
     max-width: 500px; }
+  .hero__button {
+    margin-right: 20px; }
   .hero__scroll-down {
     position: absolute;
     display: flex;
